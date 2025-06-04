@@ -1,0 +1,24 @@
+Exp-14
+pyhton -m django --version
+pip install virtualenv
+python -m venv myenv
+dir
+.\myenv\Scripts\activate
+pip list
+pip install Django
+pip install Djangorestframework
+django-admin startprojext myproject
+cd myproject
+python manage.py startapp accounts
+code .
+myproject/settings.py--mention required things
+accounts/serilaizers.py(it is is not there create it)-write the required content
+accounts/views.py--write the content
+myprojects/urls.py--write the content
+accounts/urls.py--write the content
+templates->index.htm,login.html-->write the content
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser--provide the required details
+python manage.py runserver
+
